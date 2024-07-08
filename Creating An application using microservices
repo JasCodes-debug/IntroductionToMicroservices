@@ -1,0 +1,4 @@
+You should architect the application by decomposing it into autonomous subsystems in the form of collaborating microservices and containers, where a microservice is a container.
+Microservices communicate using protocols such as HTTP (REST), but also asynchronously (for example, using AMQP) whenever possible, especially when propagating updates with integration events.
+Microservices are developed and deployed as containers independently of one another. 
+This approach means that a development team can be developing and deploying a certain microservice without impacting other subsystems.
